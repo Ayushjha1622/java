@@ -1,9 +1,7 @@
-import java.util.Scanner;
-
 public class pr_05 {
     public static void main(String[] args) {
-        System.out.println("enter your number");
-        Scanner sc = new Scanner(System.in);
-        System.out.println(sc.hasNextInt());
+        String myletter = "dear harry,\n\tthis java course is nice. \n\tthanks!";
+        System.out.println(myletter);
     }
+    
 }
