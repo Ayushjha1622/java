@@ -1,8 +1,27 @@
+// public class pr_01 {
+//     public static void main(String[] args) {
+//         int n = 4;
+//         for(int i=n; i>0; i-- ){
+//             for(int j=0; j<i; j++){
+//             System.out.print("*");
+//             }
+//             System.out.print("\n");
+//         }
+//     }
+// }
+
 public class pr_01 {
     public static void main(String[] args) {
-         String name = "Ayush JHA";
-        //  name = name.toLowerCase();
-         System.out.println(name.toLowerCase());
+        int n = 4;
+        for (int i = n; i > 0; i--) {
+            for (int j = 0; j < i; j++) {
+                System.out.print("*");
+
+            }
+            System.out.print("\n");
+
+        }
 
     }
+
 }
